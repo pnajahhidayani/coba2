@@ -81,8 +81,6 @@ public void print(){
         
 }
 
-	public void add(Pegawai pegawai) {
-	}
 }
 
 
