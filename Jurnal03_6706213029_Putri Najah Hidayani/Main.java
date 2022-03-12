@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.LinkedList;
+
 public class Main {
     public static void main (String[] args){
 
@@ -13,10 +13,10 @@ public class Main {
         Scanner input = new Scanner (System.in);
         SinglyLinkedList<Pegawai> linkedList = new SinglyLinkedList<>();
 
-        int perintah = input.nextInt();
+        int perintah = Integer.parseInt(input.nextLine());
         if (perintah == 1){
             System.out.println ("Masukkan data: ");
-            int nip = Integer.parseInt(input.nextLine());
+            int nip = input.nextInt();
             String nama = input.nextLine();
             String divisi = input.nextLine();
             
