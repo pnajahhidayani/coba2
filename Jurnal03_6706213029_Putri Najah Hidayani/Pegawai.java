@@ -3,7 +3,7 @@ public class Pegawai{
     private String nama;
     private String divisi;
 
-    public Pegawai (int nip2, String nama, String divisi) {
+    public Pegawai (String nip, String nama, String divisi) {
         this.nip = nip;
         this.nama = nama;
         this.divisi = divisi;
