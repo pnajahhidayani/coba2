@@ -16,12 +16,12 @@ public class Main {
         int perintah = Integer.parseInt(input.nextLine());
         if (perintah == 1){
             System.out.println ("Masukkan data: ");
-            int nip = input.nextInt();
+            String nip = input.nextLine();
             String nama = input.nextLine();
             String divisi = input.nextLine();
             
 
-            linkedList.add(new Pegawai(nip, nama, divisi));
+            linkedList.insertAtFront(new Pegawai(nip, nama, divisi));
             linkedList.print();
             
 
