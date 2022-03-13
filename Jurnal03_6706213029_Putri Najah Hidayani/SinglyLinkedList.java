@@ -67,7 +67,7 @@ public void print(){
         System.out.printf ("Empty %s%n" , name);
         return;
     }
-    System.out.printf("Empty %s%n", name);
+    System.out.printf("The %s is: %n", name);
     ListNode<E> current = firstNode;
     
     while (current != null) {
@@ -75,10 +75,6 @@ public void print(){
         current = current.next;
     }
     System.out.println();
-}
-    private static void programExit() {
-        System.exit(0);
-        
 }
 
 }
