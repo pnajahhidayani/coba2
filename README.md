@@ -1,2 +1,3 @@
-# coba2
-pertemuan kedua Rabu, 23 September 2021
+NIM: 6706213029
+Nama: Putri Najah Hidayani
+Kelas: D3RPLA 45-05
